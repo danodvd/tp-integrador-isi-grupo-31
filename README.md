@@ -1,7 +1,7 @@
 # tp-integrador-isi-grupo-31
 Integrantes:
 - Danilo Domínguez
-- Facundo Dorado
+- Facundo Dorado Escudero
 - Matias Giannoni
 
 Patrones utilizados:
