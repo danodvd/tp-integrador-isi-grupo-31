@@ -1,0 +1,12 @@
+[project]
+name = "tp-integrador-isi-grupo-31"
+version = "0.1.0"
+description = "Trabajo Práctico Integrador ISI - Sistema de Preguntas y Respuestas con respuestas impulsadas por agentes de IA"
+requires-python = ">=3.11"
+dependencies = [
+    "flask",
+    "flask-sqlalchemy",
+    "google-genai",
+    "openai",
+    "anthropic",
+]
