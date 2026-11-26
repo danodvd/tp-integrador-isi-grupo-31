@@ -25,7 +25,7 @@ Aplicación backend desarrollada en Python que modela una comunidad de preguntas
 1. **Clonar el repositorio:**
 
 ```bash
-git clone <github.com/danodvd/tp-integrador-isi-grupo-31>
+git clone <https://github.com/danodvd/tp-integrador-isi-grupo-31>
 cd tp-integrador-isi-grupo-31
 ```
 
