@@ -64,3 +64,6 @@ class Respuesta(Publicacion):
         self._pregunta = nueva
         if nueva is not None:
             nueva.agregar_respuesta(self)
+
+    def aceptar(self) -> None:
+        self.aceptado = True

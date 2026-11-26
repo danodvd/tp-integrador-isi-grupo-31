@@ -172,6 +172,13 @@ def obtener_pregunta(pregunta_id: int):
         ],
     })
 
+    @app.patch("/respuestas/<int:respuesta_id>/aceptar")
+    def aceptar_respuesta(respuesta_id: int):
+        respuesta_db = db.get_or_404(RespuestaModel, respuesta_id)
+        respuesta_db.aceptado = True
+        db.session.commit()
+        return jsonify({"id": respuesta_db.id, "aceptado": respuesta_db.aceptado})
+
 
 if __name__ == "__main__":
     app.run(debug=True)
